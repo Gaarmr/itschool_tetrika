@@ -43,11 +43,9 @@ def count_of_animal():
     return sorted(Counter(animal_list).items())
         
 
-
 def print_animals(animal_list):
     for letter, count in animal_list[1:]:
         print(f'{letter}: {count}')
-
 
 
 print_animals(count_of_animal())
